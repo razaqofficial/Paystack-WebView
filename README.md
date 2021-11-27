@@ -11,15 +11,11 @@
 
 The package allows you accept payment using paystack, install, add keys and use. No stress :) 
 
-### [](https://github.com/just1and0/React-Native-Paystack-WebView#installation)Installation
+### [](https://github.com/razaqofficial/Paystack-WebView)Installation
 
 Add React-Native-Paystack-WebView to your project by running;
 
-`npm install react-native-paystack-webview`
-
-or
-
-`yarn add react-native-paystack-webview`
+`npm i @razaqofficial/react-native-paystack-webview`
 
 ### **One more thing**
 
@@ -39,7 +35,7 @@ and that's it, you're all good to go!
 
 <img width="306" alt="Screenshot of library in action" src="https://user-images.githubusercontent.com/41248079/126550307-5f12c6d8-81af-4f26-951b-5d6514304022.png">
 
-### [](https://github.com/just1and0/React-Native-Paystack-WebView#usage)Usage 1
+### [](https://github.com/razaqofficial/Paystack-WebView#usage)Usage 1
 
 ```javascript
 import React from 'react';
@@ -54,6 +50,11 @@ function Pay() {
         amount={'25000.00'}
         billingEmail="paystackwebview@something.com"
         activityIndicatorColor="green"
+        metadataDevice={'mobile'}
+        metadataAction={'ticket_purchase'} //Other action is gift_voucher_purchase
+        metadataEventPrice={'event-price-id'} // required If action is ticket_purchase
+        metadataTicketQuantity={'5'} // required If action is ticket_purchase
+        metadataReceiverEmail={'razaq@example.com'} // required If action is gift_voucher_purchase
         onCancel={(e) => {
           // handle response here
         }}

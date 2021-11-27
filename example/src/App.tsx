@@ -21,6 +21,11 @@ const App = () => {
         amount={'700.90'}
         ref={paystackWebViewRef}
         autoStart={true}
+        metadataDevice={'mobile'}
+        metadataAction={'ticket_purchase'} //Other action is gift_voucher_purchase
+        metadataEventPrice={'event-price-id'} // required If action is ticket_purchase
+        metadataTicketQuantity={'5'} // required If action is ticket_purchase
+        metadataReceiverEmail={'razaq@example.com'} // required If action is gift_voucher_purchase
       />
 
       <TouchableOpacity onPress={() => paystackWebViewRef.current?.startTransaction()}>

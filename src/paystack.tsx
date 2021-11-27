@@ -24,11 +24,11 @@ const Paystack: React.ForwardRefRenderFunction<React.ReactNode, PayStackProps> =
     autoStart = false,
     onSuccess,
     activityIndicatorColor = 'green',
-    device = 'mobile',
-    action,
-    eventPrice,
-    ticketQuantity,
-    receiverEmail,
+    metadataDevice = 'mobile',
+    metadataAction,
+    metadataEventPrice,
+    metadataTicketQuantity,
+    metadataReceiverEmail,
   },
   ref,
 ) => {
@@ -82,10 +82,11 @@ const Paystack: React.ForwardRefRenderFunction<React.ReactNode, PayStackProps> =
                 ${getChannels(channels)}
                 ${refNumberString}
                 metadata: {
-                    device: '${device}',
-                    action: '${action}',
-                    event_price: '${eventPrice}',
-                    ticket_quantity: '${ticketQuantity}'
+                    device: '${metadataDevice}',
+                    action: '${metadataAction}',
+                    event_price: '${metadataEventPrice}',
+                    ticket_quantity: '${metadataTicketQuantity}',
+                    receiver_email: '${metadataReceiverEmail}'
                 },
                 callback: function(response){
                       var resp = {event:'successful', transactionRef:response};
