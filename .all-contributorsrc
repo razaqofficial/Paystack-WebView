@@ -1,0 +1,154 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "just1and0",
+      "name": "Oluwatobi Shokunbi ",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17249207?v=4",
+      "profile": "https://linksnest.com/just1and0",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "mosoakinyemi",
+      "name": "Akinyemi Mosolasi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/41248079?v=4",
+      "profile": "https://github.com/mosoakinyemi",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "okechukwu0127",
+      "name": "okechukwu0127",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/23473673?v=4",
+      "profile": "https://github.com/okechukwu0127",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "johneyo",
+      "name": "Johney",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36991140?v=4",
+      "profile": "https://github.com/johneyo",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "samie820",
+      "name": "sammy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/27306463?v=4",
+      "profile": "https://twitter.com/AjeboDeveloper",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "walexanderos",
+      "name": "Jimoh Jamiu",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/36700043?v=4",
+      "profile": "https://github.com/walexanderos",
+      "contributions": [
+        "bug",
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "cahakgeorge",
+      "name": "Cahak George",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8522701?v=4",
+      "profile": "https://medium.com/@cahakgeorge",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "johnayeni",
+      "name": "John Ayeni",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22295092?v=4",
+      "profile": "https://johnayeni.xyz",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "majirieyowel",
+      "name": "majirieyowel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30162976?v=4",
+      "profile": "https://github.com/majirieyowel",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Zeusmist",
+      "name": "David Erinayo Obidu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51177741?v=4",
+      "profile": "https://github.com/Zeusmist",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "surafelbm",
+      "name": "surafelbm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11531221?v=4",
+      "profile": "https://github.com/surafelbm",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "omivrex",
+      "name": "Rex Omiv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42608841?v=4",
+      "profile": "https://github.com/omivrex",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "ossyfizy1",
+      "name": "Osagie Osaigbovo Charles",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18512476?v=4",
+      "profile": "https://github.com/ossyfizy1",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Ujjalcha1",
+      "name": "Ujjalcha1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40722840?v=4",
+      "profile": "https://github.com/Ujjalcha1",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Blac-Panda",
+      "name": "Oyefeso Oluwatunmise",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23406970?v=4",
+      "profile": "http://codexplorer.me",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "React-Native-Paystack-WebView",
+  "projectOwner": "just1and0",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
